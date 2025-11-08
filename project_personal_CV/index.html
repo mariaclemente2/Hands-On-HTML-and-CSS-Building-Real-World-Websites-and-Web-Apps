@@ -1,63 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <!-- Metadata for the browser -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to the CSS stylesheet -->
-    <link rel="stylesheet" href="styles-modified.css">
-
-    <!-- Title of the page -->
-    <title>Student CV</title>
+    <title>María Clemente Menaya - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Main container for the CV -->
-    <div id="cv">
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="name">María Clemente Menaya</h1>
+                    <p class="tagline">Business Analytics | AI & Machine Learning | Derecho y ADE</p>
+                </div>
+                <div class="header-contact">
+                    <p>Email: clemente.menaya.maria@gmail.com</p>
+                    <p>Teléfono: 664 820 705</p>
+                    <p>Ubicación: Madrid, España</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-        <!-- Student's name and title -->
-        <header>
-            <h1>Jane Doe</h1>
-            <p>Computer Science Student</p>
-        </header>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Profile Section -->
+            <section class="section profile-section">
+                <h2 class="section-title">Perfil Profesional</h2>
+                <div class="profile-content">
+                    <p>Graduada en <strong>Administración y Dirección de Empresas y Derecho</strong>, con un enfoque multidisciplinar que combina visión jurídica y estratégica. Actualmente curso un <strong>Máster en Business Analytics, Inteligencia Artificial y Machine Learning</strong> con especialización en Management en la Universidad Francisco de Vitoria, lo que me permite integrar la toma de decisiones empresariales con el análisis de datos y tecnologías emergentes.</p>
+                </div>
+            </section>
 
-        <!-- Contact information -->
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <address>
-                <p>Email: janedoe@example.com</p>
-                <p>Phone: +1234567890</p>
-            </address>
-        </section>
+            <!-- Experience Section -->
+            <section class="section experience-section">
+                <h2 class="section-title">Experiencia Profesional</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="job-title">Inside Sales Internship</h3>
+                            <p class="company">Accenture</p>
+                        </div>
+                        <span class="date">Marzo 2025 - Julio 2025</span>
+                    </div>
+                    <div class="experience-details">
+                        <h4>Apoyo Financiación:</h4>
+                        <ul>
+                            <li>Revisión y validación de condiciones de financiación para clientes</li>
+                            <li>Análisis de la financiación disponible según el perfil y necesidades del cliente</li>
+                        </ul>
+                        <h4>Apoyo Backoffice:</h4>
+                        <ul>
+                            <li>Seguimiento y gestión de los clientes en las plataformas internas como Salesforce</li>
+                            <li>Control documental y actualización de datos en sistemas para garantizar trazabilidad y cumplimiento</li>
+                        </ul>
+                        <p class="project-highlight">Proyecto BBVA</p>
+                    </div>
+                </div>
 
-        <!-- Education details -->
-        <section id="education">
-            <h2>Education</h2>
-            <p>BS in Computer Science, XYZ University, 2023</p>
-        </section>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="job-title">Event Hostess</h3>
+                            <p class="company">Dobleerre</p>
+                        </div>
+                        <span class="date">Diciembre 2021 - Febrero 2025</span>
+                    </div>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Azafata de eventos y congresos (Latin Grammys, SIMOF)</li>
+                            <li>Atención al público y gestión de eventos de alto perfil</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-            </ul>
-        </section>
+            <!-- Education Section -->
+            <section class="section education-section">
+                <h2 class="section-title">Educación</h2>
+                
+                <div class="education-item">
+                    <div class="education-header">
+                        <div>
+                            <h3 class="degree">Máster en Business Analytics, Inteligencia Artificial y Machine Learning</h3>
+                            <p class="institution">Universidad Francisco de Vitoria</p>
+                            <p class="specialization">Especialización en Management</p>
+                        </div>
+                        <span class="date">2025-2026</span>
+                    </div>
+                </div>
 
-        <!-- Experience -->
-        <section id="experience">
-            <h2>Experience</h2>
-            <!-- Each work experience can be an article -->
-            <article>
-                <h3>Intern at ABC Corp</h3>
-                <p>Developed XYZ features.</p>
-            </article>
-        </section>
-    </div>
+                <div class="education-item">
+                    <div class="education-header">
+                        <div>
+                            <h3 class="degree">Doble Grado en Administración y Dirección de Empresas y Derecho</h3>
+                            <p class="institution">Universidad de Sevilla</p>
+                            <p class="thesis">TFG: Aplicación del Modelo Lean al sector hotelero: eficiencia, calidad y mejora continua</p>
+                        </div>
+                        <span class="date">2020-2025</span>
+                    </div>
+                </div>
+
+                <div class="education-item erasmus">
+                    <div class="education-header">
+                        <div>
+                            <h3 class="degree">Programa Erasmus +</h3>
+                            <p class="institution">Università degli Studi di Genova, Italia</p>
+                        </div>
+                        <span class="date">2023-2024</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Two Column Section: Skills & Certifications -->
+            <div class="two-column-section">
+                
+                <!-- Skills Section -->
+                <section class="section skills-section">
+                    <h2 class="section-title">Skills Técnicos</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div>
+                                <h4>Paquete Office</h4>
+                                <p>Dominio avanzado</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div>
+                                <h4>Power BI</h4>
+                                <p>Certificado Microsoft</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div>
+                                <h4>Python</h4>
+                                <p>Data Analytics & ML</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div>
+                                <h4>SQL</h4>
+                                <p>Gestión de datos</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div>
+                                <h4>Salesforce</h4>
+                                <p>CRM Management</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Idiomas</h3>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span>Español</span>
+                            <span class="level">Nativo</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Inglés</span>
+                            <span class="level">C1 Certificado</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Italiano</span>
+                            <span class="level">B1</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Soft Skills & Additional Info -->
+                <section class="section additional-section">
+                    <h2 class="section-title">Competencias</h2>
+                    <div class="competencies">
+                        <div class="competency-item">
+                            <p>Liderazgo y trabajo en equipo</p>
+                        </div>
+                        <div class="competency-item">
+                            <p>Comunicación efectiva</p>
+                        </div>
+                        <div class="competency-item">
+                            <p>Pensamiento crítico y resolución de problemas</p>
+                        </div>
+                        <div class="competency-item">
+                            <p>Gestión eficaz bajo presión</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Certificaciones</h3>
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <p>Power BI Data Analyst - Microsoft</p>
+                        </div>
+                        <div class="cert-item">
+                            <p>Fundamentos de la mentoría efectiva en el entorno universitario</p>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Logros Deportivos</h3>
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <p><strong>Jugadora de Tenis:</strong> Medalla de bronce en dobles femenino en el Campeonato de España Universitario</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 María Clemente Menaya. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
-
 </html>
